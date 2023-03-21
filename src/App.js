@@ -7,7 +7,7 @@ import About from "./Components/About";
 function App() {
   return (
     <div className="container-fluid flex justify-center">
-      <div className="container">
+      <div className="container ">
         <Video></Video>
         <Steps></Steps>
         <Module></Module>
