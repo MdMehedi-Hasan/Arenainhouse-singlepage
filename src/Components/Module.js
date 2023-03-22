@@ -20,7 +20,7 @@ const Module = () => {
       ];
     return (
         <div>
-            <div className='flex flex-wrap justify-center'>
+            <div className='container mx-auto flex flex-wrap justify-center'>
                 <div className='w-1/3 p-5'>
                 <img className='border border-sky-200 LightImgPreview' src={module1} alt="module_img_1" onClick={()=>setOpen(true)}/>
                 </div>
