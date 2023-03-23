@@ -1,29 +1,52 @@
+import { Icon } from '@iconify/react';
 import React from 'react';
 import './Steps.css'
 
 const Steps = () => {
     return (
-        <section>
+        <section className='py-40'>
+            <h1 className='text-7xl text-center mb-40'>What We Provide</h1>
             <div className='conatiner mx-auto flex items-center flex-col'>
                 <div className='relative'>
-                    <span className='absolute right-[-150px] top-[75px] text-lg font-bold'>Something Here</span>
-                    <div className='down_arrow'></div>
+                    <div className='absolute right-[-450px] top-[75px] border text-center p-5 w-96 rounded-lg bg-base-200'>
+                    <Icon icon="fa6-solid:hat-cowboy" className='mx-auto text-8xl'/>
+                        <h5 className='text-2xl font-bold'>Complete Hacking Guide</h5>
+                        <p>We provide complete guide from scratch to professional level.</p>
+                    </div>
+                    <div className='down_arrow'><div></div></div>
                 </div>
                 <div className='relative'>
-                    <div className='down_arrow'></div>
-                    <span className='absolute left-[-150px] top-[75px] text-lg font-bold'>Something Here</span>
+                    <div className='down_arrow'><div></div></div>
+                    {/* <span className='absolute left-[-150px] top-[75px] text-lg font-bold'>152 Modules</span> */}
+                    <div className='absolute left-[-450px] top-[75px] border text-center p-5 w-96 rounded-lg bg-base-200'>
+                    <Icon icon="mdi:account-graduation" className='mx-auto text-8xl'/>
+                        <h5 className='text-2xl font-bold'>1 Month Internship</h5> 
+                        <p>We provide complete guide from scratch to professional level.</p>
+                    </div>
                 </div>
                 <div className='relative'>
-                    <span className='absolute right-[-150px] top-[75px] text-lg font-bold'>Something Here</span>
-                    <div className='down_arrow'></div>
+                    <div className='absolute right-[-450px] top-[75px] border text-center p-5 w-96 rounded-lg bg-base-200'>
+                    <Icon icon="iconoir:headset-help" className='mx-auto text-8xl'/>
+                        <h5 className='text-2xl font-bold'>Instant Support</h5>
+                        <p>We provide complete guide from scratch to professional level.</p>
+                    </div>
+                    <div className='down_arrow'><div></div></div>
                 </div>
                 <div className='relative'>
-                    <div className='down_arrow'></div>
-                    <span className='absolute left-[-150px] top-[75px] text-lg font-bold'>Something Here</span>
+                    <div className='down_arrow'><div></div></div>
+                    <div className='absolute left-[-450px] top-[75px] border text-center p-5 w-96 rounded-lg bg-base-200'>
+                    <Icon icon="jam:fiverr" className='mx-auto text-8xl'/>
+                        <h5 className='text-2xl font-bold'>Freelancing Help</h5>
+                        <p>We provide complete guide from scratch to professional level.</p>
+                    </div>
                 </div>
                 <div className='relative'>
-                    <span className='absolute right-[-150px] top-[75px] text-lg font-bold'>Something Here</span>
-                    <div className='down_arrow'></div>
+                <div className='absolute right-[-450px] top-[75px] border text-center p-5 w-96 rounded-lg bg-base-200'>
+                    <Icon icon="mdi:book-open-page-variant" className='mx-auto text-8xl'/>
+                        <h5 className='text-2xl font-bold'>152 Modules</h5>
+                        <p>We provide complete guide from scratch to professional level.</p>
+                    </div>
+                    <div className='down_arrow'><div></div></div>
                 </div>
             </div>
         </section>

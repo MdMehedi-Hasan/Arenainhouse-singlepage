@@ -1,10 +1,13 @@
 .down_arrow{
     content: '';
     width: 50px;
-    height: 200px;
+    height: 400px;
     /* clip-path: polygon(29% 0, 50% 21%, 70% 0, 71% 63%, 49% 100%, 28% 67%); */
     clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 75%, 50% 100%, 0% 75%);
     background-image: linear-gradient(180deg,#56b5e3,#7d58a5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .arr_1::after{
     content: 'Something special here';
@@ -18,6 +21,15 @@
     font-weight: 600;
     background-color: rgb(219, 12, 12);
 }
+.down_arrow div{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+/* .content{
+    background-image: url('./Assets/Shapes/bg1.svg');
+} */
 /* .arr_sec:nth-child(2)::before{
     content: 'Something special here';
     width: auto;
