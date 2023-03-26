@@ -8,20 +8,22 @@ import Statistics from "./Components/Statistics";
 import Gallery from "./Components/Gallery";
 import Team from "./Components/Team";
 import { ParallaxProvider } from "react-scroll-parallax"
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <ParallaxProvider>
       <div className="">
         <div className="">
-          <Video></Video>
-          <Steps></Steps>
-          <Module></Module>
-          <About></About>
-          <Review></Review>
-          <Statistics></Statistics>
-          <Gallery></Gallery>
-          <Team></Team>
+          <Video />
+          <Steps />
+          <Module />
+          <About />
+          <Review />
+          <Statistics />
+          <Gallery />
+          <Team />
+          <Footer />
         </div>
       </div>
     </ParallaxProvider>
