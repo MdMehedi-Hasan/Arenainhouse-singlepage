@@ -23,7 +23,7 @@ const Video = () => {
                         <p className="font-['Cormorant_Garamond'] text-2xl mt-10 text-justify">Arena Web Security is a sister concern of Arena Web Technology. Arena Web Security is a renowned IT security company in Bangladesh since its establishment in 2012. During these years, Arena Web Security has provided Cyber Security Services and Trainings to many around the world. <br /> <br />
                             Involved with Government entities in 2012 like ICT Ministry, Academy for Rural Development, University of Engineering and Technology. Experienced with cyber security support in corporate area linked with outsourcing market. Already 43 batches received this training and have started to earn through online and corporate job.</p>
                     </div>
-                    <button type="" className="btn btn-warning btn-animate text-4xl h-auto py-5 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">Enroll Now In Cyber Security & Ethical Hacking Course </button>
+                    <a href="https://arenawebsecurity.net/admission" className='text-center'><button type="" className="btn btn-warning btn-animate text-4xl h-auto py-5 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">Enroll Now In Cyber Security & Ethical Hacking Course </button></a>
                 </div>
             {/* </Parallax> */}
         </section>

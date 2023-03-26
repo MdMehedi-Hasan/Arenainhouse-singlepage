@@ -7,7 +7,7 @@ const Statistics = () => {
             <h1 className='text-center text-6xl'>Statistics</h1>
             <p className='text-center text-3xl'>Statistics shows our demand on this field...</p>
             <div className='flex justify-center'>
-                <div className='container grid grid-cols-4 gap-5 py-20'>
+                <div className='container grid grid-cols-4 gap-5 py-20 text-center'>
                     <div className='rounded flex flex-col items-center'>
                         <Icon className='text-6xl' icon="fluent:people-team-28-filled" />
                         <p className='text-3xl font-semibold'>15000+ Students</p>

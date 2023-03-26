@@ -7,6 +7,7 @@ import module4 from './Assets/cyber-security-course-outline/cyber-security4.svg'
 import module5 from './Assets/cyber-security-course-outline/cyber-security5.svg'
 import downArrow from './Assets/Shapes/down2.png'
 import "react-image-lightbox/style.css";
+import { Icon } from '@iconify/react';
 
 const Module = () => {
     const [open, setOpen] = useState(false)
@@ -60,6 +61,7 @@ const Module = () => {
                     }
                 />
             )}
+            <a href="https://arenawebsecurity.net/admission" className='flex justify-center'><button type="" className="btn btn-warning btn-animate w-2/4 text-4xl h-auto py-5 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">Interested? <br /> Join The Course</button></a>
         </div>
     );
 };
