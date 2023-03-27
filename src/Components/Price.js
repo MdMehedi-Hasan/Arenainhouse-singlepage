@@ -17,13 +17,13 @@ const Price = () => {
                         <h1 className='text-center'>Course Fee: 14,000 <sub>(Free Bundle)</sub></h1>
                         <ul className='w-full pl-5'>
                             <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Figma</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Figma</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Figma</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Figma</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Figma</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Figma</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Photoshop</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Adobe</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Visual Studio</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>Linux</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" /></div><div>kali</div></li>
                         </ul>
-                        <button type="" className='border rounded-full p-2 bg-green-300 w-fit my-10'>ENROLL NOW!</button>
+                        <a href="https://arenawebsecurity.net/admission"><button type="" className='border rounded-full p-2 bg-green-300 w-fit my-10'>ENROLL NOW!</button></a>
                     </div>
                 </div>
             </div>
