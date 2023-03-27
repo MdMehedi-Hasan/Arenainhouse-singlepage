@@ -9,6 +9,7 @@ import Gallery from "./Components/Gallery";
 import Team from "./Components/Team";
 import { ParallaxProvider } from "react-scroll-parallax"
 import Footer from "./Components/Footer";
+import Price from "./Components/Price";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Video />
           <Steps />
           <Module />
+          <Price/>
           <About />
           <Review />
           <Statistics />

@@ -25,22 +25,22 @@ const Module = () => {
             <img src={downArrow} alt="" className='absolute top-[-200px] right-[45%] left-[55%] rotate-45'/>
             <h1 className='text-center text-8xl mb-20'>Modules List</h1>
             <div className='container mx-auto flex flex-wrap justify-center'>
-                <div className='w-1/3 p-5'>
+                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="2000" className='w-1/3 p-5'>
                 <img className='border border-sky-200 LightImgPreview' src={module1} alt="module_img_1" onClick={()=>setOpen(true)}/>
                 </div>
-                <div className='w-1/3 p-5'>
+                <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="2000" className='w-1/3 p-5'>
                 <img className='border border-sky-200 LightImgPreview' src={module2} alt="module_img_2" onClick={()=>setOpen(true)}/>
                 </div>
-                <div className='w-1/3 p-5'>
+                <div data-aos="flip-right" data-aos-delay="50" data-aos-duration="2000" className='w-1/3 p-5'>
                 <img className='border border-sky-200 LightImgPreview' src={module3} alt="module_img_3" onClick={()=>setOpen(true)}/>
                 </div>
-                <div className='w-1/3 p-5'>
+                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="2000" className='w-1/3 p-5'>
                 <img className='border border-sky-200 LightImgPreview' src={module4} alt="module_img_4" onClick={()=>setOpen(true)}/>
                 </div>
-                <div className='w-1/3 p-5'>
+                <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="2000" className='w-1/3 p-5'>
                 <img className='border border-sky-200 LightImgPreview' src={module5} alt="module_img_5" onClick={()=>setOpen(true)}/>
                 </div>
-                <div className='w-1/3 p-5'>
+                <div data-aos="flip-right" data-aos-delay="50" data-aos-duration="2000" className='w-1/3 p-5'>
                 <img className='border border-sky-200 LightImgPreview' src={module5} alt="module_img_5" onClick={()=>setOpen(true)}/>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const Module = () => {
                     }
                 />
             )}
-            <a href="https://arenawebsecurity.net/admission" className='flex justify-center'><button type="" className="btn btn-warning btn-animate w-2/4 text-4xl h-auto py-5 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">Interested? <br /> Join The Course</button></a>
+            <a href="https://arenawebsecurity.net/admission" className='flex justify-center'><button type="" className="btn btn-warning btn-animate w-2/4 text-4xl h-auto py-5 font-serif normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">Interested? <br /> Join The Course</button></a>
         </div>
     );
 };
