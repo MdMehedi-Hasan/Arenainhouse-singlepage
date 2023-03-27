@@ -48,7 +48,7 @@ const Steps = () => {
                 <div className='relative'>
                 <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" className='absolute right-[-450px] top-[75px] border text-center p-5 w-96 rounded-lg bg-emerald-300'>
                     <Icon icon="mdi:book-open-page-variant" className='mx-auto text-8xl text-sky-900'/>
-                        <h5 className='text-2xl font-bold'>152 Modules</h5>
+                        <h5 className='text-2xl font-bold'>121 Modules</h5>
                         <p>We provide complete guide from scratch to professional level.</p>
                     </div>
                     <div className='down_arrow'><div></div></div>

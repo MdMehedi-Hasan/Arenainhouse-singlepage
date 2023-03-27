@@ -1,5 +1,5 @@
 import React from 'react';
-import review from './Assets/review.svg'
+import review from './Assets/main_review.svg'
 import './Video.css'
 
 const Review = () => {
