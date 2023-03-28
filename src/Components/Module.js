@@ -22,7 +22,7 @@ const Module = () => {
       ];
     return (
         <div className='py-40 relative bg-circle'>
-            <img src={downArrow} alt="" className='absolute top-[-200px] right-[45%] left-[55%] rotate-45'/>
+            <img src={downArrow} alt="" className='absolute top-[-150px] right-[45%] left-[55%] rotate-45 w-52'/>
             <h1 className='text-center text-8xl mb-20'>Modules List</h1>
             <div className='container mx-auto flex flex-wrap justify-center'>
                 <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="2000" className='w-1/3 p-5'>

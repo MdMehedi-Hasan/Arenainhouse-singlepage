@@ -18,12 +18,12 @@ const Price = () => {
                         <img src={hacker} alt="" className='w-24 py-10'/>
                         <h1 className="text-center font-normal text-xl mb-5 font-['Space-Grotesk']">Course Fee: 14,000 <sub>(Free Bundle)</sub></h1>
                         <ul className='w-full pl-5'>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Figma</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Photoshop</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Adobe</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Visual Studio</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Linux</div></li>
-                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>kali</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Burp Suite</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Acunetix</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Nmap</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>Cyber Fox</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>OSINT Framework</div></li>
+                            <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>PortSwigger</div></li>
                         </ul>
                         <a href="https://arenawebsecurity.net/admission"><button type="" className='bg-gradient-to-r from-[#00CC99] to-[#753ccace] border rounded-full py-2 px-5 text-white w-fit my-10 font-serif font-semibold'>ENROLL NOW!</button></a>
                     </div>

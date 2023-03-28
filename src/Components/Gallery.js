@@ -24,8 +24,8 @@ const Gallery = () => {
                 <img src={img6} alt="" />
             </div> */}
             <h1 className='text-center text-6xl mb-32'>Some of Our Memorable Moments</h1>
-            <div className='circle-1'></div>
-            <div className='circle-2'></div>
+            {/* <div className='circle-1'></div>
+            <div className='circle-2'></div> */}
             <div className='container flex flex-wrap justify-center'>
                 <div className='w-2/5 cursor-pointer'>
                 <img src={img1} alt="" onClick={()=>setOpen(true)}/>
