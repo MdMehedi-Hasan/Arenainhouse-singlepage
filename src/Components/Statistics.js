@@ -4,7 +4,7 @@ import './Statistics.css'
 
 const Statistics = () => {
     return (
-        <section className='pt-40 pb-10 bg-gray-50'>
+        <section className='py-10 bg-gray-50'>
             <h1 className='text-center text-6xl'>Statistics</h1>
             <p className="text-center text-3xl font-['Libre-Baskerville']">Statistics shows our demand on this field...</p>
             <div className='flex justify-center'>

@@ -9,7 +9,7 @@ const Steps = () => {
         Aos.init();
     },[])
     return (
-        <section className='py-40 bg-circle'>
+        <section className='py-14 bg-circle'>
             <h1 className='text-7xl text-center mb-32'>What We Provide</h1>
             <div className='conatiner mx-auto flex items-center flex-col'>
                 <div className='relative'>

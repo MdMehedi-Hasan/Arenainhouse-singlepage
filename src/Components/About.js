@@ -4,7 +4,7 @@ import hackerImg from './Assets/hacker.png'
 
 const About = () => {
     return (
-        <section className='relative py-20 bg-circle'>
+        <section className='relative py-5 bg-circle'>
             {/* <div className='h-full w-full absolute flex justify-center items-center opacity-5'>
             <img src={hackerImg} alt="" className='z-50'/>
             </div> */}

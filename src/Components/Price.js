@@ -6,7 +6,7 @@ import './Price.css'
 
 const Price = () => {
     return (
-        <section className="flex justify-center bg-red-600 py-20 test bg-cover">
+        <section className="flex justify-center py-10 test bg-cover bg-no-repeat">
             <div className='container flex items-center justify-around'>
                 <div className='w-3/12'>
                     <h1 className='text-6xl mb-10'>Pricing Plan</h1>
