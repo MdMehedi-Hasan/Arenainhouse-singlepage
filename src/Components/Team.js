@@ -8,37 +8,37 @@ import './Team.css'
 const Team = () => {
     return (
         <section className='flex justify-center py-20'>
-            <div className='container grid grid-cols-2 gap-y-20 justify-items-center'>
-                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000" className='max-w-lg relative box'>{/* shadow-[-20px_-20px_20px_17px_green;] */}
+            <div className='container max-w-4xl grid grid-cols-2 gap-y-20 justify-items-center'>
+                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000" className='max-w-sm relative shadow-2xl shadow-slate-400 bg-gray-50'>{/* shadow-[-20px_-20px_20px_17px_green;] */}
                     <img width="100%" src={img1} alt="Tanjim Al Fahim" />
-                    <div className='p-5 bg-gray-50'>
-                        <h1 className='text-2xl font-semibold'>Tanjim Al Fahim</h1>
+                    <div className='p-5'>
+                        <h1 className='text-2xl'>Tanjim Al Fahim</h1>
                         <p className='text-sm font-semibold mt-1 mb-3'>Founder & CEO</p>
-                        <p className='text-justify'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p className='text-justify'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                     </div>
                 </div>
-                <div data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000" className='max-w-lg relative box'>
+                <div data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000" className='max-w-sm relative shadow-2xl shadow-slate-400'>
                     <img width="100%" src={img2} alt="Tanjim Al Fahim" />
                     <div className='p-5 bg-gray-50'>
-                        <h1 className='text-2xl font-semibold'>Ashif Islam</h1>
+                        <h1 className='text-2xl'>Ashif Islam</h1>
                         <p className='text-sm font-semibold mt-1 mb-3'>Traineer</p>
-                        <p className='text-justify'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p className='text-justify'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                     </div>
                 </div>
-                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000" className='max-w-lg relative box'>
+                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000" className='max-w-sm relative shadow-2xl shadow-slate-400'>
                     <img width="100%" src={img3} alt="Tanjim Al Fahim" />
                     <div className='p-5 bg-gray-50'>
-                        <h1 className='text-2xl font-semibold'>Mohammad Abdullah</h1>
+                        <h1 className='text-2xl'>Mohammad Abdullah</h1>
                         <p className='text-sm font-semibold mt-1 mb-3'>Traineer</p>
-                        <p className='text-justify'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p className='text-justify'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                     </div>
                 </div>
-                <div data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000" className='max-w-lg relative box'>
+                <div data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000" className='max-w-sm relative shadow-2xl shadow-slate-400'>
                     <img width="100%" src={img4} alt="Tanjim Al Fahim" />
                     <div className='p-5 bg-gray-50'>
-                        <h1 className='text-2xl font-semibold'>Aminul Haque</h1>
+                        <h1 className='text-2xl'>Aminul Haque</h1>
                         <p className='text-sm font-semibold mt-1 mb-3'>Traineer</p>
-                        <p className='text-justify'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p className='text-justify'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                     </div>
                 </div>
             </div>

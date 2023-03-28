@@ -65,7 +65,7 @@ const Gallery = () => {
                     }
                 />
             )}
-            <a href="https://arenawebsecurity.net/admission"><button type="link" className="mx-auto btn btn-warning btn-animate text-4xl h-auto py-5 mt-20 font-bold normal-case shadow-[0px_0px_10px_10px_#e7e7e770] font-normal w-auto">If you Want To See Yourself Here. Then <br /> Join Our Course Now! </button></a>
+            <a href="https://arenawebsecurity.net/admission"><button type="link" className="mx-auto btn btn-warning btn-animate text-4xl h-auto py-5 mt-20 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#e7e7e770] font-normal w-auto">If you Want To See Yourself Here. Then <br /> Join Our Course Now! </button></a>
         </section>
     );
 };
