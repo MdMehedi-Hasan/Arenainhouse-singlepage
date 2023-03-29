@@ -1,3 +1,4 @@
+import { Icon } from '@iconify/react';
 import React, { useEffect } from 'react';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import video from "./Assets/movie1.mp4";
@@ -14,8 +15,9 @@ const Video = () => {
         <section className="bg-image text-white h-screen flex items-center"> {/* bg-image text-white */}
             {/* <Parallax className='mx-auto' speed={-50}> */}
             <div className='container mx-auto grid grid-cols-2 justify-between items-center gap-x-20'>
-                <div>
+                <div className='relative'>
                     {/* <iframe src="https://www.youtube.com/embed/9y927xiDtJo?autoplay=1&mute=1" title="Arena Course Details" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen autoPlay className=''></iframe> */}
+                    <p className='bg-red-600 text-white flex items-center justify-center py-3 text-xl'><Icon icon="charm:sound-up" /> &nbsp; Make Sure Your Sound Is Turned On!</p>
                     <video data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000" controls autoPlay muted>
                         <source src={video} type="video/mp4" />
                         <source src={video} type="video/ogg" />
@@ -36,8 +38,8 @@ const Video = () => {
                         <div className='w-1/2 border rounded-lg text-2xl py-3 pl-8 shadow-xl'><p>Freelancing</p></div>
                     </div>
                 </div>
-                <a href="https://arenawebsecurity.net/admission" className='text-center mt-5'><button type="" className="btn btn-warning btn-animate text-4xl h-auto py-3 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal w-full">Enroll Now </button></a>
-                <a href="https://arenawebsecurity.net/admission" className='mt-5'><button type="" className="btn btn-warning btn-animate text-4xl h-auto py-3 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal w-1/2">Enroll Now </button></a>
+                <a href="https://arenawebsecurity.net/admission" className='text-center mt-5'><button type="" className="btn btn-warning btn-animate text-4xl h-auto py-3 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal w-full text-white">Enroll Now &nbsp; <span className='border-2 border-white rounded-full text-white'><Icon icon="ic:outline-keyboard-double-arrow-right" /></span></button></a>
+                <a href="https://arenawebsecurity.net/admission" className='mt-5'><button type="" className="btn btn-warning btn-animate text-4xl h-auto py-3 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal w-1/2 text-white">Enroll Now &nbsp; <span className='border-2 border-white rounded-full text-white'><Icon icon="ic:outline-keyboard-double-arrow-right" /></span></button></a>
             </div>
             {/* </Parallax> */}
         </section>

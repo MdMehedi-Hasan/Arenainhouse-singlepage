@@ -1,0 +1,6 @@
+.test2{
+    /* background-image: url('./Assets/test3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-image: linear-gradient(189deg, #000000,#363636,#000000);
+}

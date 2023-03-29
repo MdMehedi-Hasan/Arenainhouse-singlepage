@@ -10,6 +10,8 @@ import Team from "./Components/Team";
 import { ParallaxProvider } from "react-scroll-parallax"
 import Footer from "./Components/Footer";
 import Price from "./Components/Price";
+import Certification from "./Components/Certification";
+import Refund from "./Components/Refund";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
           <Steps />
           <Module />
           <Price/>
+          <Refund/>
           <About />
+          <Certification/>
           <Review />
           <Statistics />
           <Gallery />
