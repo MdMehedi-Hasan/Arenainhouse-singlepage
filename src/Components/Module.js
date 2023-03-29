@@ -61,7 +61,7 @@ const Module = () => {
                     }
                 />
             )}
-            <a href="https://arenawebsecurity.net/admission" className='flex justify-center'><button type="" className="btn btn-warning btn-animate w-2/6 mt-3 text-4xl h-auto py-5 font-serif normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">Interested? <br /> Join The Course</button></a>
+            <a href="https://arenawebsecurity.net/admission" className='flex justify-center'><button type="" className="btn btn-warning btn-animate w-2/6 mt-3 text-4xl h-auto py-5 normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">Interested? <br /> Join The Course</button></a>
         </div>
     );
 };

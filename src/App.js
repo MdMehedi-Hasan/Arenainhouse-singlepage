@@ -22,13 +22,13 @@ function App() {
           <Steps />
           <Module />
           <Price/>
-          <Refund/>
           <About />
           <Certification/>
           <Review />
           <Statistics />
           <Gallery />
           <Team />
+          <Refund/>
           <Footer />
         </div>
       </div>
