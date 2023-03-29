@@ -18,7 +18,7 @@ const Review = () => {
                 <div className='flex justify-center'>
                     <img src={review} alt="" className='w-2/3'/>
                 </div>
-                <a href="https://arenawebsecurity.net/admission" className='mt-5 flex justify-center'><button type="" className="btn btn-warning btn-animate text-4xl h-auto w-1/2 py-5 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">You can be the next cyber expert. <br /> Enroll Now! </button></a>
+                <a href="https://arenawebsecurity.net/admission" className='mt-5 flex justify-center'><button type="" className="btn btn-warning btn-animate text-4xl h-auto w-1/2 py-5 font-['Tiro_Telugu'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal">If you Want To See Yourself Here. Then <br /> Join Our Course Now! </button></a>
             </div>
         </section>
     );

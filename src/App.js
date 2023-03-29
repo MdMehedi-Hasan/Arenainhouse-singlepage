@@ -12,6 +12,7 @@ import Footer from "./Components/Footer";
 import Price from "./Components/Price";
 import Certification from "./Components/Certification";
 import Refund from "./Components/Refund";
+import SmallFooter from "./Components/SmallFooter";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
           <Gallery />
           <Team />
           <Refund/>
-          <Footer />
+          {/* <Footer /> */}
+          <SmallFooter/>
         </div>
       </div>
     </ParallaxProvider>

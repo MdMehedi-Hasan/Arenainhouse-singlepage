@@ -25,15 +25,15 @@ const Steps = () => {
                     {/* <span className='absolute left-[-150px] top-[75px] text-lg font-bold'>152 Modules</span> */}
                     <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000" className='absolute left-[-320px] top-[7px] border text-center p-3 w-72 rounded-lg bg-emerald-300'>
                     <Icon icon="mdi:account-graduation" className='mx-auto text-6xl text-sky-900'/>
-                        <h5 className="text-2xl font-bold font-['Libre-Baskerville']">1 Month Internship</h5> 
-                        <p className="font-['Abhaya-Libre']">We provide complete guide from scratch to professional level.</p>
+                        <h5 className="text-2xl font-bold font-['Libre-Baskerville']">Live Class</h5> 
+                        <p className="font-['Abhaya-Libre']">We organize live virtual class where students and teachers meet together to communicate with video and whiteboard.</p>
                     </div>
                 </div>
                 <div className='relative'>
                     <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" className='absolute right-[-320px] top-[7px] border text-center p-3 w-72 rounded-lg bg-emerald-300'>
                     <Icon icon="iconoir:headset-help" className='mx-auto text-6xl text-sky-900'/>
-                        <h5 className="text-2xl font-bold font-['Libre-Baskerville']">Instant Support</h5>
-                        <p className="font-['Abhaya-Libre']">We provide complete guide from scratch to professional level.</p>
+                        <h5 className="text-2xl font-bold font-['Libre-Baskerville']">Exam & Intern</h5>
+                        <p className="font-['Abhaya-Libre']">In the exam centers, verification of the candidates is done by the exam center authorities.</p>
                     </div>
                     <div className='down_arrow'><div></div></div>
                 </div>
@@ -41,15 +41,15 @@ const Steps = () => {
                     <div className='down_arrow'><div></div></div>
                     <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000" className='absolute left-[-320px] top-[7px] border text-center p-3 w-72 rounded-lg bg-emerald-300'>
                     <Icon icon="jam:fiverr" className='mx-auto text-6xl text-sky-900'/>
-                        <h5 className="text-2xl font-bold font-['Libre-Baskerville']">Freelancing Help</h5>
-                        <p className="font-['Abhaya-Libre']">We provide complete guide from scratch to professional level.</p>
+                        <h5 className="text-2xl font-bold font-['Libre-Baskerville']">Project & Freelancing</h5>
+                        <p className="font-['Abhaya-Libre']">Project guidelines and freelancing support from scratch to professional level.</p>
                     </div>
                 </div>
                 <div className='relative'>
                 <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" className='absolute right-[-320px] top-[7px] border text-center p-3 w-72 rounded-lg bg-emerald-300'>
                     <Icon icon="mdi:book-open-page-variant" className='mx-auto text-6xl text-sky-900'/>
                         <h5 className="text-2xl font-bold font-['Libre-Baskerville']">121 Modules</h5>
-                        <p className="font-['Abhaya-Libre'] text-lg">We provide complete guide from scratch to professional level.</p>
+                        <p className="font-['Abhaya-Libre'] text-lg">We provide training in smart outline based on international standard.</p>
                     </div>
                     <div className='down_arrow'><div></div></div>
                 </div>

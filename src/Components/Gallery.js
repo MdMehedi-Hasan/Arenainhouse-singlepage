@@ -7,6 +7,7 @@ import img4 from './Assets/gallery/4.png'
 import img5 from './Assets/gallery/5.png'
 import img6 from './Assets/gallery/6.png'
 import img7 from './Assets/gallery/7.webp'
+import mainImage from './Assets/gallery/gallery1.svg'
 import './Gallery.css'
 
 const Gallery = () => {
@@ -23,10 +24,9 @@ const Gallery = () => {
                 <img src={img5} alt="" />
                 <img src={img6} alt="" />
             </div> */}
-            <h1 className='text-center text-6xl mb-20'>Some of Our Memorable Moments</h1>
-            {/* <div className='circle-1'></div>
-            <div className='circle-2'></div> */}
-            <div className='container flex flex-wrap justify-center'>
+            <h1 className='text-center text-6xl mb-20'>People in Cyber Security</h1>
+            <img className='w-2/3' src={mainImage} alt=""/>
+            {/* <div className='container flex flex-wrap justify-center'>
                 <div className='w-2/5 cursor-pointer'>
                 <img src={img1} alt="" onClick={()=>setOpen(true)}/>
                 </div>
@@ -48,7 +48,7 @@ const Gallery = () => {
                 <div className='w-2/5 cursor-pointer'>
                 <img src={img7} alt="" onClick={()=>setOpen(true)}/>
                 </div>
-            </div>
+            </div> */}
             {open && (
                 <Lightbox
                     mainSrc={images[photoIndex]}
@@ -65,7 +65,7 @@ const Gallery = () => {
                     }
                 />
             )}
-            <a href="https://arenawebsecurity.net/admission"><button type="link" className="mx-auto btn btn-warning btn-animate text-4xl h-auto py-5 mt-20 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#e7e7e770] font-normal w-auto">If you Want To See Yourself Here. Then <br /> Join Our Course Now! </button></a>
+            <a href="https://arenawebsecurity.net/admission"><button type="link" className="mx-auto btn btn-warning btn-animate text-4xl h-auto py-5 mt-20 font-['Tiro_Telugu'] normal-case shadow-[0px_0px_10px_10px_#e7e7e770] font-normal w-auto">You can be the next cyber expert. <br /> Enroll Now! </button></a>
         </section>
     );
 };

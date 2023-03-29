@@ -9,7 +9,7 @@ const Footer = () => {
                     <img src={logo} alt="" className='w-1/2' />
                 </div>
                 <div className='flex-1 flex flex-col justify-between'>
-                    <h1 className='mb-20 text-5xl leading-snug'>We can't Wait to <br/> See you on our course!</h1> {/* gradientText */}
+                    <h1 className='mb-20 text-5xl leading-snug'>Your Decision <br/> Our Responsibility</h1> {/* gradientText */}
                     <a href="https://arenawebsecurity.net/admission"><button type="" className="btn btn-warning animate-bounce text-4xl h-auto py-5 font-['Lateef'] normal-case shadow-[0px_0px_10px_10px_#ffffff5c] font-normal w-full">See you on the course. <br /> Enroll Now! </button></a>
                 </div>
             </div>

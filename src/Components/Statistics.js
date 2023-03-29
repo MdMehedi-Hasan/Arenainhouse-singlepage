@@ -11,7 +11,7 @@ const Statistics = () => {
                 <div className='container grid grid-cols-5 gap-5 py-20 text-center'>
                     <div data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000" className='rounded flex flex-col items-center'>
                         <Icon className='text-6xl' icon="fluent:people-team-28-filled"/>
-                        <p className="text-3xl font-['Libre-Baskerville']">15000+ Students</p>
+                        <p className="text-3xl font-['Libre-Baskerville']">5000+ Students</p>
                     </div>
                     <div data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000" className='rounded flex flex-col items-center'>
                         <Icon className='text-6xl' icon="material-symbols:interactive-space-outline-rounded" />
@@ -23,11 +23,11 @@ const Statistics = () => {
                     </div>
                     <div data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000" className='rounded flex flex-col items-center'>
                         <Icon className='text-6xl' icon="jam:fiverr" />
-                        <p className="text-3xl font-['Libre-Baskerville']">1000+ Freelancers</p>
+                        <p className="text-3xl font-['Libre-Baskerville']">1300+ Freelancers</p>
                     </div>
                     <div data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000" className='rounded flex flex-col items-center'>
                         <Icon className='text-6xl' icon="ph:office-chair-fill" />
-                        <p className="text-3xl font-['Libre-Baskerville']">2000+ Corporate Jobs</p>
+                        <p className="text-3xl font-['Libre-Baskerville']">1065+ Corporate Jobs</p>
                     </div>
                 </div>
             </div>
