@@ -6,7 +6,7 @@ import './Price.css'
 
 const Price = () => {
     return (
-        <section className="flex justify-center py-10 test bg-cover bg-no-repeat">
+        <section className="flex justify-center py-10 bg-shape bg-cover bg-no-repeat">
             <div className='container flex items-center justify-around'>
                 <div className='w-3/12'>
                     <h1 className='text-6xl mb-10'>Pricing Plan</h1>
@@ -25,7 +25,7 @@ const Price = () => {
                             <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>OSINT Framework</div></li>
                             <li className='flex items-center gap-3'><div><Icon icon="material-symbols:arrow-circle-right-outline" className='text-green-500'/></div><div className='font-mono'>PortSwigger</div></li>
                         </ul>
-                        <a href="https://arenawebsecurity.net/admission"><button type="" className='bg-gradient-to-r from-[#00CC99] to-[#753ccace] border rounded-full py-2 px-5 text-white w-fit my-10 font-serif font-semibold'>ENROLL NOW!</button></a>
+                        <a href="https://arenawebsecurity.net/admission"><button type="" className='bg-gradient-to-r from-[#00CC99] to-[#753ccace] border rounded-full py-2 px-5 text-white w-fit my-10 font-serif font-semibold flex items-center'>ENROLL NOW! <Icon icon="svg-spinners:pulse" /></button></a>
                     </div>
                 </div>
             </div>
